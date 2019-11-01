@@ -1,0 +1,140 @@
+{
+  "name": "Basic\nElectronic1",
+  "unit_number": 1,
+  "description": "some description of the unit is here",
+  "unitcontent": {
+		"title_info": {
+			"title": "Basic\nElectronics",
+			"unit_info": "DIODES",
+			"unit_desc": "Using Diodes to force\nElectric Current to flow\nin a particular direction",
+			"unit_graphic":  "file_location_img.png"
+		},
+    "info_dialog": [
+      "Begin Experience\nReady, Go",
+      "Lesson Preface 1/2\nBuilding upon what we learnt in lesson 1 & 2,\nin this lesson we will learn how to\ncontrol the direction of current in circuits using Diodes",
+      "Lesson Preface 2/2\nAfter this lesson you’ll be able to:\n<Objective 1>\n<Objective 2>\n<Objective 3>",
+      "Circuit Building\nNow you will build a circuit that forces\ncurrent to move in  one direction."
+    ],
+    "media_contents": [
+      {
+        "file_source": "intro.mp4",
+        "media_description": "Desciption goes here",
+        "title": "Introduction to Diodes",
+        "type": "video2D"
+      },
+      {
+        "file_source": "Diodes Animatic.mp4",
+        "media_description": "Desciption goes here",
+        "title": "Introduction to Diodes",
+        "type": "video2D"
+      }
+    ],
+    "Questions": [
+		{
+			"question_text": "Here is a Select all that Apply MCQ sample",
+			"possible_answers":[
+				{
+				  "answer": "one",
+				  "state": false,
+				  "reason": "some reason goes here"
+				}, 
+				{
+				  "answer": "two",
+				  "state": true,
+				  "reason": "some reason goes here"
+				},
+				{
+				  "answer": "five",
+				  "state": false,
+				  "reason": "some reason goes here"
+				},
+				{
+				  "answer": "deux",
+				  "state": true,
+				  "reason": "some reason goes here"
+				},
+				{
+				  "answer": "forty",
+				  "state": false,
+				  "reason": "some reason goes here"
+				}
+			],
+			"question_type": "mcq",
+			"correct_answers": [1, 3],
+			"points": 3,
+			"achievement": ""
+		},
+		{
+			"question_text": "This is a select all that apply situation",
+			"possible_answers":[
+				{
+				  "answer": "one",
+				  "state": false,
+				  "reason": "some reason goes here_1"
+				}, 
+				{
+				  "answer": "two",
+				  "state": true,
+				  "reason": "some reason goes here_2"
+				},
+				{
+				  "answer": "five",
+				  "state": false,
+				  "reason": "some reason goes here_3"
+				},
+				{
+				  "answer": "deux",
+				  "state": true,
+				  "reason": "some reason goes here_4"
+				},
+				{
+				  "answer": "forty",
+				  "state": false,
+				  "reason": "some reason goes here_5"
+				}
+			],
+			"question_type": "sata",
+			"correct_answers": [1, 3],
+			"points": 3,
+			"achievement": ""
+		},
+		{
+			"question_text": "How many terminals does a dry cell have",
+			"possible_answers":[
+				{
+				  "answer": "one",
+				  "state": false,
+				  "reason": "some reason goes here"
+				}, 
+				{
+				  "answer": "two",
+				  "state": true,
+				  "reason": "some reason goes here"
+				},
+				{
+				  "answer": "five",
+				  "state": false,
+				  "reason": "some reason goes here"
+				},
+				{
+				  "answer": "deux",
+				  "state": true,
+				  "reason": "some reason goes here"
+				},
+				{
+				  "answer": "forty",
+				  "state": false,
+				  "reason": "some reason goes here"
+				}
+			],
+			"question_type": "mcq_mtf",
+			"correct_answers": [1, 3],
+			"points": 3,
+			"achievement": ""
+		}
+		],
+	"unit_progress":[
+		"info_dialog","info_dialog","info_dialog","info_dialog","media_contents","media_contents","Questions","Questions","Questions"
+		]
+	}
+}

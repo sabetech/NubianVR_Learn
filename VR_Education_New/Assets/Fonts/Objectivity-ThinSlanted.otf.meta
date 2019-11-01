@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 31c09da45a5218f4aae6e51081db60e8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Objectivity
+  fontNames:
+  - Objectivity
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 12b15ca8bc0d07146950b6b4319a6b46, type: 3}
+  - {fileID: 12800000, guid: 1cb58c39de4aabb429ed45a0e0af366c, type: 3}
+  - {fileID: 12800000, guid: 09c6692ce7de41944bd6c13ff6fb21e5, type: 3}
+  - {fileID: 12800000, guid: 1882e94fbc9251b4f9bff2f6730fcf69, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,169 @@
+Notes about the structure of the Nubian VR for Education platform
+
+MAJOR NAMESPACES
+- Modules
+- Runtime
+- Tests
+- Monobehaviours
+
+
+STRUCTURE OF A UNIT (JSON)
+- Description
+A Unit will be loaded from a Server and Constructed at Runtime on the Headset.
+For the Interactive Activities, a set of preloaded activities can loaded on the devices 
+and the course creator assign what 3D activity to be done in the JSON structure of things.
+The sample structure of a Unit outlined below
+
+{
+  "unit_meta":{
+    "name":"Basic Electronic1",
+    "unit_number":1,
+    "description":"some description of the unit is here"
+  },
+  "unit_content": {
+    "explainer_animations":[
+      {
+        "name":"some animation about diodes",
+        "description":"some description of the video goes here",
+        "link":"http://servername/filename.mp4"
+      },
+      {
+        "name":"some animation about diodes",
+        "description":"some description of the video goes here",
+        "link":"http://servername/filename.mp4"
+      }
+      ],
+    "multi_choice_questions":[
+      {
+        "question":{
+          "question_text": "How many terminals does a dry cell have",
+          "possible_answers":[
+            {
+              "answer": "one",
+              "state": "incorrect",
+              "reason": "some reason goes here"
+            }, 
+            {
+              "answer": "two",
+              "state": "correct",
+              "reason": "some reason goes here"
+            },
+            {
+              "answer": "five",
+              "state": "incorrect",
+              "reason": "some reason goes here"
+            },
+            {
+              "answer": "deux",
+              "state": "correct",
+              "reason": "some reason goes here"
+            },
+            {
+              "answer": "forty",
+              "state": "incorrect",
+              "reason": "some reason goes here"
+            }
+            ],
+          "possible_correct_answers":[3, 4],
+          "question_type":"regular/intervention",
+          "points": 3,
+          "achievement": "some_achievement_gained?"
+        }
+        
+      },
+      {
+        "question":{
+          "question_text": "How many terminals does a dry cell have",
+          "possible_answers":[
+            {
+              "answer": "one",
+              "state": "incorrect",
+              "reason": "some reason goes here"
+            }, 
+            {
+              "answer": "two",
+              "state": "correct",
+              "reason": "some reason goes here"
+            },
+            {
+              "answer": "five",
+              "state": "incorrect",
+              "reason": "some reason goes here"
+            },
+            {
+              "answer": "deux",
+              "state": "correct",
+              "reason": "some reason goes here"
+            },
+            {
+              "answer": "forty",
+              "state": "incorrect",
+              "reason": "some reason goes here"
+            }
+            ],
+          "possible_correct_answers":[3, 4],
+          "question_type":"regular/intervention",
+          "points": 3,
+          "achievement": "some_achievement_gained?"
+        }
+        
+      }
+      ],
+    "interactive_3ds":[
+      {
+        "activity":{
+          "activity_uuid": "6bf3a8ccafb10"  
+        }
+      },
+      {
+        "activity":{
+          "activity_uuid": "435fab215af54"  
+        }
+      }
+      ],
+    "video360s":[
+        {
+          "name":"some animation about diodes",
+          "description":"some description of the video goes here",
+          "link":"http://servername/filename.mp4"
+        },
+        {
+          "name":"some animation about diodes",
+          "description":"some description of the video goes here",
+          "link":"http://servername/filename.mp4"
+        }
+      ],
+    "challenges": [],
+    "achievements":[],
+    "info_dialog": [
+      "some info dialog about something",
+      "some info dialog about something else"
+      ]
+  },
+  "unit_progress" : [
+    {
+      "explainer_animations": 1
+    },
+    {
+      "interactive_3ds": 1
+    },
+    {
+      "multiple_choice_questions": 1
+    },
+    {
+      "interactive_3ds": 2
+    },
+    {
+      "info_dialog": 1
+    },
+    {
+      "multiple_choice_questions": 2
+    },
+    {
+      "info_dialog": 2
+    },
+    {
+      "video360s": 1
+    }
+  ]
+}
